@@ -1,0 +1,39 @@
+header{
+    position: static;
+    background-color: #033c5a;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    padding: 60px;
+    font-size: 30px;
+}
+
+body {
+    background-color: #FFFFFF;
+  }
+  
+  h1 {
+    margin-left: 20px;
+  }
+
+  footer {
+      position: fixed;
+      background-color: #033c5a;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+  }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff94; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
