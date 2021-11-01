@@ -24,6 +24,10 @@ header h1 {
 body {
     background-color: #FFFFFF;
   }
+
+section {
+    text-align: center;
+}
   
   h1 {
     margin-left: 20px;
@@ -48,4 +52,12 @@ a:hover {
     color:#ffffff94; 
     text-decoration:none; 
     cursor:pointer;  
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#cccccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
 }
