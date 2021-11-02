@@ -8,13 +8,13 @@ class Header extends HTMLElement {
         <header>
             <div class="container">
                 <div class="row">
-                <div class="col">
-                    <a href="index.html" title="GWU Student Life Homepage"><img class="img-fluid" src="img/home/gwu-student-life-logo.png" height="100" alt="GWU Student Life Logo"></a>
-                    <h1>GWU Student Life</h1>
-                </div>
-                <div id="search-box" class="col">
-                    <input type="text" placeholder="Search">
-                </div>
+                    <div class="col">
+                        <a href="index.html" title="GWU Student Life Homepage"><img class="img-fluid" src="img/home/gwu-student-life-logo.png" height="100" alt="GWU Student Life Logo"></a>
+                        <h1>GWU Student Life</h1>
+                    </div>
+                    <div class="col">
+                        <div class="gcse-search"></div>
+                    </div>
                 </div>
                 <div class="row">
                     <nav id="navigation">
