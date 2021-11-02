@@ -1,12 +1,13 @@
-header{
-    position: static;
-    background-color: #033c5a;
-    left: 0;
-    top: 0;
-    width: 100%;
-    color: white;
-    padding: 60px;
-    font-size: 30px;
+header {
+  position: static;
+  background-color: #033c5a;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #FFFFFF;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header img {
@@ -21,6 +22,10 @@ header h1 {
     left: 20px;
 }
 
+header nav {
+  font-size: 20px;
+}
+
 header #search-box {
   text-align: right;
 }
@@ -30,7 +35,34 @@ header #search-box {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#hero-main-header {
+  font-size: 50px;
   color: #FFFFFF;
+}
+
+#hero-sub-header {
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+button {
+  padding: 5px 15px; 
+  background: #033c5a;
+  color: #ffffff;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  padding: 5px 15px;
+  background: #ffffff;
+  border: 2px #033c5a;
+  color: #033c5a;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .container {
@@ -38,7 +70,7 @@ header #search-box {
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
 section {
@@ -59,22 +91,29 @@ footer {
   text-align: center;
 }
 
-a {
-  color: #ffffff;
+#copyright-notice {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
   text-decoration: none;
 }
 
-a:hover {
-    color:#ffffff94; 
-    text-decoration:none; 
-    cursor:pointer;  
+a:link, a:visited {
+    color:#ffffff; 
+    text-decoration: none; 
+    cursor: pointer;
 }
 
-input[type=submit], button {
-    padding:5px 15px; 
-    background:#cccccc; 
-    border:0 none;
-    cursor:pointer;
+a:hover {
+  color:#ffffff94; 
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+input[type = submit] {
+    padding: 5px 15px; 
+    background: #cccccc; 
+    border: 0 none;
+    cursor: pointer;
     border-radius: 5px; 
 }
 
