@@ -19,7 +19,7 @@ class Header extends HTMLElement {
                 <div class="row">
                     <nav id="navigation">
                         <a href="https://studentlife.gwu.edu/student-orgs" title="Student Clubs">Clubs</a> |
-                        <a href="https://dining.gwu.edu/where-eat" title="Campus Food">Food</a> |
+                        <a href="food-map.html" title="Campus Food">Food</a> |
                         <a href="https://www.alumni.gwu.edu/events"title="Campus Networking">Networking</a> |
                         <a href="https://gwsports.com/"title="GWU Sports">Sports</a> |
                         <a href="https://studentlife.gwu.edu/"title="About GWU Student Life">About</a>
